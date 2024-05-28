@@ -29,6 +29,10 @@ export class CrearProductoComponent {
   }
 
 
+  get controls(){
+    return this.formProducto.controls
+  }
+
   guardarProducto(){
     alert()
   }

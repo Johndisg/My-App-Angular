@@ -6,6 +6,9 @@
             <mat-label>Nombre producto</mat-label>
             <input matInput>
           </mat-form-field>
+          @if(controls['nombre'].invalid && controls['nombre'].errors && (controls['nombre'].dirty || controls['nombre'].touched)){
+
+          }
     </div>
     <div>
         <mat-form-field appearance ="outline" class="w-100">
